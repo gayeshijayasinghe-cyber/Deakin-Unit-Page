@@ -15,10 +15,20 @@ p {
   font-size: 14px;
   font-family: Arial
 }
-div {
+.header {
   background-color: darkcyan;
-  text-align: right;
+  height: 120px;              /* bigger like screenshot */
+  display: flex;
+  justify-content: flex-end;  /* move logo to right */
+  align-items: center;        /* center vertically */
+  padding-right: 20px;
 }
+
+.header img {
+  width: 100px;   /* control logo size */
+  height: auto;
+}
+
 th, td {
   padding: 8px;
   text-align: left;
